@@ -1,0 +1,88 @@
+/* Modal.scss */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Затемняем фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Делаем модалку поверх всех элементов */
+}
+  
+.modal-content {
+    position: relative;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    // width: 1200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.up_content {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+} 
+.info-input {
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+.live-job {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 230px;
+    background-color: hsl(216, 24%, 96%);
+}
+.pic_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d0dce9;
+    background-color: #E7F0FA;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 7px;
+    gap: 10px;
+    margin-left: 15px;
+}
+.pic_content:hover {
+    background-color: #0f4885;
+}
+.modal_btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.modal_btn:hover {
+    background-color: #0056b3;
+}
+
+input {
+    border: none;
+}
+
+.down-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 1000;
+}
+  

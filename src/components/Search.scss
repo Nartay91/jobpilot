@@ -1,0 +1,90 @@
+.search {
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    background-color: #fff;
+}
+.search-area {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.logo{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.logo_h {
+    color: #18191C;
+    font-weight: 700;
+    font-size: 24px;
+    width: 95px;
+    // height: 40px;
+}
+.form-search {
+    height: 40px;
+    // width: 670px;
+    // position: relative;
+    display: flex;
+    margin-right: 200px;
+    // flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    gap: 10px;
+}
+.search-icon {
+    display: flex;
+    margin-right: 20px;
+}
+.input-container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-text {
+    display: flex;
+    border: none;
+    border-radius: none;
+    font-size: 20px;
+    width: 300px;
+}
+.sign-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0A65CC;
+    background-color: #fff;
+    border: 1px solid #0A65CC;
+    border-radius: 4px;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.post-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #0A65CC;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 120px;
+    height: 43px;
+    margin-right: 150px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ellipse_icon {
+    margin-right: 150px;
+}

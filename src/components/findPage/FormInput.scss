@@ -1,0 +1,62 @@
+.find-job {
+    background-color: #fff;
+}
+.current-path {
+    display: flex;
+    width: 1170px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 250px;
+    background-color: #cacdd6;
+}
+.form-inputs{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 1900px;
+    height: 120px;
+}
+.form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 1170px;
+    height: 80px;
+    margin-left: 250px;
+    border: 1px solid #e6dbdb;
+    border-radius: 10px;
+}
+.input__job {
+    display: flex;
+    width: 430px;
+    font-size: 18px;
+}
+.input_job_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color:#375edd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.input_jobs_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color:#cacdd6;
+    color: #0e0606;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
